@@ -86,6 +86,13 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/CNAME": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/CNAME",
+		"oF": 0
+		},
 	"\/css\/normalize.css": {
 		"aP": 1,
 		"bl": 0,
