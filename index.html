@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Single Origin App</title>
+  <link href="css/normalize.css" rel="stylesheet" />
+  <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <section class="main">
+    <div class="main-info-wrapper">
+      <img class="app-icon" src="./assets/icon.png" alt="app icon" />
+      <h1 class="app-name">Single Origin</h1>
+      <h3 class="app-description">Learn to brew specialty coffee.</h3>
+      <img class="download-on-app-store" src="./assets/download-on-app-store.svg" alt="download on the app store" />
+    </div>
+  </section>
+
+  <section class="supporting">
+    <img class="supporting-image first" src="./assets/home-screen.png" alt="app home screen" />
+    <p class="supporting-description">
+      Learn to brew specialty coffee with step by step instructions
+    </p>
+    <img class="supporting-image" src="./assets/customize.png" alt="customize" />
+    <p class="supporting-description">
+      Customize recipes to brew the perfect cup every time
+    </p>
+    <img class="supporting-image" src="./assets/timer.png" alt="timer" />
+    <p class="supporting-description">
+      Built in timers for every brew method
+    </p>
+    <img class="supporting-image" src="./assets/log.png" alt="log" />
+    <p class="supporting-description">
+      Log each brew to improve your brewing skills
+    </p>
+    <img class="supporting-image" src="./assets/achievement.png" alt="achievement" />
+    <p class="supporting-description">
+      Gain coffee achievements along the way
+    </p>
+  </section>
+
+  <section class="footer">
+    <img class="app-icon" src="./assets/icon.png" alt="app icon" />
+    <h1 class="app-name">Single Origin</h1>
+    <h3 class="app-description">Learn to brew specialty coffee.</h3>
+    <img class="download-on-app-store" src="./assets/download-on-app-store.svg" alt="download on the app store" />
+    <h5 class="feedback">Contact: <a href="https://twitter.com/jonsamp">@jonsamp</a></h5>
+    <h6 class="copywrite">&copy; <span class="year"></span> Single Origin</h6>
+  </section>
+
+  <script async>
+		(function() {
+  var yearElement = document.querySelector(".year");
+  yearElement.textContent = new Date().getFullYear();
+})();
+</script>
+</body>
+
+</html>
