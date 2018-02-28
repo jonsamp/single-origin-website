@@ -42,6 +42,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/google-play-store.png": {
+		"ft": 32768,
+		"iS": 13957,
+		"oA": 0,
+		"oAP": "\/assets\/google-play-store.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/home-screen.png": {
 		"ft": 32768,
 		"iS": 2256727,
@@ -122,6 +133,13 @@
 		"oAP": "\/css\/styles-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/index.html",
+		"oF": 0
 		}
 	},
 "hooks": [

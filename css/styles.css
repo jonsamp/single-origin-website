@@ -43,8 +43,18 @@ body {
   text-align: center;
 }
 
+.app-stores {
+  display: flex;
+  align-items: center;
+}
+
 .download-on-app-store {
+  margin: 0 0.5rem;
   width: 10rem;
+}
+
+.google-store {
+  width: 11.5rem;
 }
 
 .supporting {
