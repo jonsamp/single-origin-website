@@ -102,3 +102,11 @@ body {
   margin-top: 0;
   color: #999999;
 }
+
+.privacy-policy-info-wrapper {
+  padding: 2rem;
+}
+
+.footer a {
+  color: white;
+}

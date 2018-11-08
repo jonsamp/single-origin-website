@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Single Origin App</title>
+  <link href="css/normalize.css" rel="stylesheet" />
+  <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <section class="privacy-policy">
+    <div class="privacy-policy-info-wrapper">
+      <h1>Single Origin Privacy Policy</h1>
+      <p>
+        This privacy policy discloses the privacy practices for Single Origin. This privacy notice applies solely to
+        information collected by this website and the Single Origin iOS and Android apps.
+        <br/><br/>
+        Single Origin does not collect or maintain any information about users or any of their activities, outside of what is collected anonymously by Google and Android through their store analytics.
+        <br/><br/>
+        All information within the app is only saved locally on the user's device and is never transmitted or collected outside the device. There are no event tracking or any other data collection features, therefore your information is solely created and used on your device. No one at Single Origin has the ability to access any data about any of your activities while using the app.
+        <br/><br/>
+        Since your information only exists on your device, we do not support exporting or extracting your data. Data about brews and your history of brews can only be seen within the app.
+        <br/><br/>
+        If you feel that we are not abiding by this privacy policy, you should contact us immediately via email at sampjon@gmail.com.
+      </p>
+  </section>
+
+  <section class="footer">
+    <img class="app-icon" src="./assets/icon.png" alt="app icon" />
+    <h1 class="app-name">Single Origin</h1>
+    <h3 class="app-description">Learn to brew specialty coffee.</h3>
+    <div class="app-stores">
+      <a href="https://itunes.apple.com/app/apple-store/id1316843624?pt=2131102&ct=website&mt=8">
+        <img class="download-on-app-store" src="./assets/app-store.png" alt="download on the app store" />
+      </a>
+      <a href="https://play.google.com/store/apps/details?id=com.jonsamp.singleorigin">
+        <img class="download-on-app-store google-store" src="./assets/google-play-store.png" alt="download on the google play store" />
+      </a>
+    </div>
+    <h5 class="feedback">Made by <a href="https://twitter.com/jonsamp">@jonsamp</a></h5>
+    <h6 class="copywrite">&copy; <span class="year"></span> Single Origin | <a href="/privacy-policy.html">Privacy Policy</a></h6>
+  </section>
+
+  <script async>
+    (function () {
+      var yearElement = document.querySelector('.year');
+      yearElement.textContent = new Date().getFullYear();
+    })();
+  </script>
+</body>
+
+</html>
